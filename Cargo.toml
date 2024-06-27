@@ -1,0 +1,5 @@
+[workspace]
+members = ["crates/example"]
+default-members = ["crates/example"]
+
+resolver = "2"
