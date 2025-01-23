@@ -1,0 +1,10 @@
+[package]
+name = "zhazba_ui"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+# Exteranal packages
+mlua = { workspace = true }
+ratatui = { workspace = true }

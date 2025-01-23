@@ -1,0 +1,19 @@
+[package]
+name = "zhazba"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+# Internal crates
+zhazba_config = { workspace = true }
+zhazba_editor = { workspace = true }
+zhazba_lua = { workspace = true }
+zhazba_models = { workspace = true }
+
+# External packages
+anyhow = { workspace = true }
+clap = { workspace = true }
+crossterm = { workspace = true }
+mlua = { workspace = true }
+tokio = { workspace = true }

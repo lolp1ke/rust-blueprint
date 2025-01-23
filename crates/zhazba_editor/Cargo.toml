@@ -1,0 +1,19 @@
+[package]
+name = "zhazba_editor"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+# Internal crates
+zhazba_buffer = { workspace = true }
+zhazba_config = { workspace = true }
+zhazba_models = { workspace = true }
+zhazba_theme = { workspace = true }
+
+
+# External packages
+anyhow = { workspace = true }
+crossterm = { workspace = true }
+futures = { workspace = true }
+futures-timer = { workspace = true }

@@ -1,0 +1,10 @@
+[package]
+name = "zhazba_models"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+# External packages
+crossterm = { workspace = true }
+mlua = { workspace = true }

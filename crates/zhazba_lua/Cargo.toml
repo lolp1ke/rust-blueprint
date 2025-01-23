@@ -1,0 +1,13 @@
+[package]
+name = "zhazba_lua"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+# Internal crates
+zhazba_config = { workspace = true }
+zhazba_models = { workspace = true }
+
+# External packages
+mlua = { workspace = true }
